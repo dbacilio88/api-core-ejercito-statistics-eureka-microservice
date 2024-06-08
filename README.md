@@ -15,7 +15,7 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin http://gitlab.example.com:8929/cinfe-estadistica/statistical-system/api-core-ejercito-statistics-eureka-microservice.git
+git remote add origin https://github.com/dbacilio88/api-core-ejercito-statistics-eureka-microservice.git
 git branch -M main
 git push -uf origin main
 ```
