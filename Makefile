@@ -1,5 +1,6 @@
 APP_NAME := api-core-ejercito-statistics-eureka-microservice
-DOCKER_REGISTRY := 10.64.170.11:8082
+DOCKER_REGISTRY := dbacilio88
+#	DOCKER_REGISTRY := 10.64.170.11:8082
 DOCKER_IMAGE := $(DOCKER_REGISTRY)/$(APP_NAME)
 GIT_COMMIT := $(shell git rev-parse --short HEAD)
 VERSION := $(shell mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
